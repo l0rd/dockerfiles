@@ -1,4 +1,4 @@
 FROM jess/rust
 
-ONBUILD WORKDIR /src/
+WORKDIR /src/
 ONBUILD COPY / /src/
